@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Andersern Lab 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="task_1">Task 1</string>
+    <string name="task_2">Task 2</string>
+    <string name="austria">Austria</string>
+    <string name="colombia">Colombia</string>
+    <string name="denmark">Denmark</string>
+    <string name="madagascar">Madagascar</string>
+    <string name="italy">Italy</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="thailand">Thailand</string>
+    <string name="poland">Poland</string>
+    <string name="image_url">Image URL</string>
+    <string name="picture_from_url">Picture from url</string>
+</resources>

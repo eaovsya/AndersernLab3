@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/firstTaskFragment"
+        android:name="com.example.andersernlab3.FirstTaskFragment"
+        android:label="Flags"
+        tools:layout="@layout/fragment_first_task" >
+        <action
+            android:id="@+id/action_firstTaskFragment_to_austriaFragment"
+            app:destination="@id/austriaFragment" />
+        <action
+            android:id="@+id/action_firstTaskFragment_to_polandFragment"
+            app:destination="@id/polandFragment" />
+        <action
+            android:id="@+id/action_firstTaskFragment_to_italyFragment"
+            app:destination="@id/italyFragment" />
+        <action
+            android:id="@+id/action_firstTaskFragment_to_colombiaFragment"
+            app:destination="@id/colombiaFragment" />
+        <action
+            android:id="@+id/action_firstTaskFragment_to_madagascarFragment"
+            app:destination="@id/madagascarFragment" />
+        <action
+            android:id="@+id/action_firstTaskFragment_to_thailandFragment"
+            app:destination="@id/thailandFragment" />
+        <action
+            android:id="@+id/action_firstTaskFragment_to_denmarkFragment"
+            app:destination="@id/denmarkFragment" />
+        <action
+            android:id="@+id/action_firstTaskFragment_to_switzerlandFragment"
+            app:destination="@id/switzerlandFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.andersernlab3.MainFragment"
+        android:label="Lab 3"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_firstTaskFragment"
+            app:destination="@id/firstTaskFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_secondTaskFragment"
+            app:destination="@id/secondTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondTaskFragment"
+        android:name="com.example.andersernlab3.SecondTaskFragment"
+        android:label="Image Load"
+        tools:layout="@layout/fragment_second_task" />
+    <fragment
+        android:id="@+id/austriaFragment"
+        android:name="com.example.andersernlab3.AustriaFragment"
+        android:label="@string/austria"
+        tools:layout="@layout/fragment_austria" />
+    <fragment
+        android:id="@+id/polandFragment"
+        android:name="com.example.andersernlab3.PolandFragment"
+        android:label="@string/poland"
+        tools:layout="@layout/fragment_poland" />
+    <fragment
+        android:id="@+id/italyFragment"
+        android:name="com.example.andersernlab3.ItalyFragment"
+        android:label="@string/italy"
+        tools:layout="@layout/fragment_italy" />
+    <fragment
+        android:id="@+id/colombiaFragment"
+        android:name="com.example.andersernlab3.ColombiaFragment"
+        android:label="@string/colombia"
+        tools:layout="@layout/fragment_colombia" />
+    <fragment
+        android:id="@+id/madagascarFragment"
+        android:name="com.example.andersernlab3.MadagascarFragment"
+        android:label="@string/madagascar"
+        tools:layout="@layout/fragment_madagascar" />
+    <fragment
+        android:id="@+id/thailandFragment"
+        android:name="com.example.andersernlab3.ThailandFragment"
+        android:label="@string/thailand"
+        tools:layout="@layout/fragment_thailand" />
+    <fragment
+        android:id="@+id/denmarkFragment"
+        android:name="com.example.andersernlab3.DenmarkFragment"
+        android:label="@string/denmark"
+        tools:layout="@layout/fragment_denmark" />
+    <fragment
+        android:id="@+id/switzerlandFragment"
+        android:name="com.example.andersernlab3.SwitzerlandFragment"
+        android:label="@string/switzerland"
+        tools:layout="@layout/fragment_switzerland" />
+</navigation>
